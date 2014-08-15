@@ -1,0 +1,9 @@
+Rest API for SGE
+
+version 0.5 includes r/o support for SGE qstat information
+listens on port 5000. Returns json data
+
+
+api/v0.5/users/(<userid>)?
+api/v0.5/hosts/(<hostid>)?
+api/v0.5/jobs/(<jobid>(.<taskid>)?)?
